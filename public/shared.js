@@ -1,0 +1,9 @@
+"use strict";
+
+var REQUEST_CONNECTION = 'a',
+	REQUEST_DISCONNECTION = 'b',
+	CONNECTION_GRANTED = 'c',
+	PLANET_UPDATE = 'd',
+	KEY_CHROME = '1',
+	KEY_FIREFOX = '2',
+	KEY_OTHER = '3';
