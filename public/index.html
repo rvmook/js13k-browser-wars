@@ -4,7 +4,7 @@
 <title>Rock, Paper, Scissors</title>
 <meta charset="UTF-8">
 	<style>
-		ul, body {
+		canvas, ul, body {
 			padding: 0;
 			margin: 0;
 			width: 100%;
@@ -14,34 +14,20 @@
 			background-color: #404040;
 		}
 
-		li {
-			width: 100px;
-			text-align: center;
-			line-height: 100px;
-			background-color: #000;
-			color: #fff;
-			float: left;
-			margin: 10px;
-		}
-
-		li:hover {
-
-			background-color: #fff;
-			color: #000;
+		canvas {
+			position: absolute;
+			top: 0;
+			left: 0;
 		}
 	</style>
 </head>
 <body>
 
-<ul>
-	<li>1</li>
-	<li>2</li>
-	<li>3</li>
-</ul>
-
+<canvas id="c"></canvas>
 <script src="/socket.io/socket.io.js"></script>
 <script src="/shared.js"></script>
 <script src="/client.js"></script>
+
 
 </body>
 </html>
